@@ -2,12 +2,14 @@
   An implementation of a restful crud service in rust as a POC.
 ![](http://i.imgur.com/nZBHDNp.gif)
 ### Tech
-
 * [Postgressql]
-* [Redis]
+* [Redis] 
+
 (cargo.toml is looking for r2d2-redis locally, snag a copy from -> https://github.com/sorccu/r2d2-redis)
+
 # API 
 ### cargo run --verbose -- 3000 postgres://postgres:toor@127.0.0.1:5432/data 
+## user
   User object represents both users and vendors
 ```
 curl -XPOST 127.0.0.1:3000/user -H "application/json" -d '{"id":"","name":"jake","password":"super secret", "email":"jake@jake.com","phone":"1239567","active":1,"products":[]}'
