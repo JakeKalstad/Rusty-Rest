@@ -1,5 +1,6 @@
 # USE MORE RUST
-  An implementation of a restful crud service in rust as a POC.
+An implementation of a restful crud service in rust as a POC.
+
 ![](http://i.imgur.com/nZBHDNp.gif)
 ### Tech
 * [Postgressql]
