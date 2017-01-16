@@ -58,3 +58,12 @@ curl 127.0.0.1:3000/appointment/key-goes-here
 
 curl 127.0.0.1:3000/appointments
 ``` 
+## session 
+  Session storage to keep track of users and what not.
+```
+curl -XPOST 127.0.0.1:3000/session -H "application/json" -d '{"id":"", "user_id":"1", "data":"{root:1}","created":""}'
+
+curl 127.0.0.1:3000/session/key-goes-here
+
+curl 127.0.0.1:3000/session
+``` 
