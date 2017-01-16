@@ -1,0 +1,29 @@
+[package]
+authors = ["jake"]
+name = "Rusty Rest"
+version = "0.1.0"
+
+[dependencies]
+bodyparser = "^0.4.1"
+futures = "^0.1.1"
+hyper = "^0.9.10"
+iron = "^0.4.0"
+memcached-rs = "^0.1.2"
+persistent = "^0.2.0"
+postgres = "^0.11.11"
+r2d2 = "*"
+r2d2_postgres = "*"
+r2d2_redis = { path = "../r2d2-redis" }
+redis = "*"
+regex = "^0.1.73"
+rmp = "^0.7.5"
+rustc-serialize = "^0.3"
+serde = "^0.8"
+serde_json = "^0.8"
+serde_derive = "^0.8"
+url = "^1.2.0"
+uuid = { version = "^0.3", features = ["serde", "v4"] }
+staticfile = "*"
+mount = "*"
+router = "*"
+
